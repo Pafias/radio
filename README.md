@@ -1,5 +1,10 @@
 # radio
  
-internet radio streams or something idk
+Do you hate to have to keep switching websites when you want to listen to a different radio stream?
 
-demo: http://pafias.great-site.net/
+Well I hate it, so I made a website where I can just click on a radio stream to switch to it.
+
+Feel free to use the code and put your own favourite radio streams there or whatever you want to do.
+
+Or if you're okay with the radio selection I have, you can just use my website
+http://pafias.great-site.net/
