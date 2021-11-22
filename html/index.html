@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title id="title">Pafias | Radio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <h2>Select a nice background! :)</h2>
+    <h3>(They are all gradients)</h3>
+    <button class="button btn" onclick="setBackground('skyblue')">Sky Blue</button>
+    <button class="button btn" onclick="setBackground('pinkpurple')">Pink-Purple</button>
+    <button class="button btn" onclick="setBackground('orangered')">Orange-Red</button>
+    <button class="button btn" onclick="setBackground('limegreen')">Lime-Green</button>
+    <button class="button btn" onclick="setBackground('colorful')">Colorful</button>
+    <p></p>
+    <p></p>
+    <h1 id="cp">Radio station currently selected: HitFM</h1>
+    <h4>Firefox users: No volume slider? Click on Quick-toggle controls, or hide controls and show controls</h4>
+    <p></p>
+    <audio id="audio" controls autoplay>
+        <source id="source" src="http://stream.zeno.fm/88ck6ggfqm0uv" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button class="button btn" onclick="hideControls()">Hide Controls</button>
+    <button class="button btn" onclick="showControls()">Show Controls</button>
+    <button class="button btn" onclick="hideControls(); showControls();">Quick-toggle controls</button>
+    <p></p>
+    <h2>Available radio stations (Click)</h2>
+    <img src="logos/skyradio.png" onclick="newStream('SkyRadio [NL]')" alt="SkyRadio [NL]">
+    <img src="logos/sky-radio-hits.png" onclick="newStream('SkyRadio Hits [NL]')" alt="SkyRadio Hits [NL]">
+    <img src="logos/skyradio-lounge.png" onclick="newStream('SkyRadio Lounge [NL]')" alt="SkyRadio Lounge [NL]">
+    <img src="logos/sky-radio-lovesongs.png" onclick="newStream('SkyRadio Lovesongs [NL]')" alt="SkyRadio Lovesongs [NL]">
+    <img src="logos/skyradio-nonstop.png" onclick="newStream('SkyRadio NonStop @ Work [NL]')" alt="SkyRadio NonStop @ Work [NL]">
+    <img src="logos/sky-radio-80s-hits.png" onclick="newStream('SkyRadio 80s Hits [NL]')" alt="SkyRadio 80s Hits [NL]">
+    <img src="logos/skyradio-90s-hits.png" onclick="newStream('SkyRadio 90s Hits [NL]')" alt="SkyRadio 90s Hits [NL]">
+    <img src="logos/Sky_Radio_The_Christmas_Station.jpg" onclick="newStream('SkyRadio Christmas [NL]')" alt="SkyRadio Christmas [NL]">
+    <img src="logos/2019-SKY-Moviehit-Top-101-header-1520x615px.jfif" onclick="newStream('SkyRadio Movies [NL]')" alt="SkyRadio Movies [NL]">
+    <img src="logos/skyradio-smooth-hits.png" onclick="newStream('SkyRadio Smooth Hits [NL]')" alt="SkyRadio Smooth Hits [NL]">
+    <!-- <a onclick="newStream('SkyRadio Christmas [NL]')" alt="SkyRadio Christmas [NL]">SkyRadio Christmas [NL]</a> -->
+    <img src="logos/538.png" onclick="newStream('Radio 538 [NL]')" alt="Radio 538 [NL]">
+    <img src="logos/qmusic.png" onclick="newStream('QMusic [NL]')" alt="QMusic [NL]">
+    <img src="logos/slam.png" onclick="newStream('Slam! [NL]')" alt="Slam! [NL]">
+    <img src="logos/veronica.png" onclick="newStream('Radio Veronica [NL]')" alt="Radio Veronica [NL]">
+    <img src="logos/comercial.png" onclick="newStream('Radio Comercial [PT]')" alt="Radio Comercial [PT]">
+    <img src="logos/rfm.png" onclick="newStream('RFM [PT]')" alt="RFM [PT]">
+    <img src="logos/oceanopacifico.png" onclick="newStream('RFM Oceano Pacífico [PT]')" alt="RFM Oceano Pacífico [PT]">
+    <img src="logos/cidadefm.png" onclick="newStream('CidadeFM [PT]')" alt="CidadeFM [PT]">
+    <img src="logos/hiperfm.png" onclick="newStream('HiperFM [PT]')" alt="HiperFM [PT]">
+    <img src="logos/hitfm.png" onclick="newStream('HitFM [N/A]')" alt="HitFM [N/A]">
+    <!-- <button class="button btn" onclick="newStream('SkyRadio [NL]')">SkyRadio [NL]</button> -->
+    <!-- <button class="button btn" onclick="newStream('Radio 538 [NL]')">Radio 538 [NL]</button> -->
+    <!-- <button class="button btn" onclick="newStream('QMusic [NL]')">QMusic [NL]</button> -->
+    <!-- <button class="button btn" onclick="newStream('Slam! [NL]')">Slam! [NL]</button> -->
+    <!-- <button class="button btn" onclick="newStream('Radio Veronica [NL]')">Radio Veronica [NL]</button> -->
+    <!-- <button class="button btn" onclick="newStream('Radio Comercial [PT]')">Radio Comercial [PT]</button> -->
+    <!-- <button class="button btn" onclick="newStream('RFM [PT]')">RFM [PT]</button> -->
+    <!-- <button class="button btn" onclick="newStream('RFM Oceano Pacífico [PT]')">RFM Oceano Pacífico [PT]</button> -->
+    <!-- <button class="button btn" onclick="newStream('CidadeFM [PT]')">CidadeFM [PT]</button> -->
+    <!-- <button class="button btn" onclick="newStream('HiperFM [PT]')">HiperFM [PT]</button> -->
+    <!-- <button class="button btn" onclick="newStream('HitFM [N/A]')">HitFM [N/A]</button> -->
+</body>
+
+</html>
