@@ -1,7 +1,7 @@
 function newStream(name) {
     switch (name) {
         case 'SkyRadio [NL]':
-            changeStream('https://20103.live.streamtheworld.com/SKYRADIO_SC');
+            changeStream('https://25323.live.streamtheworld.com/SKYRADIO.mp3');
             break;
         case 'SkyRadio Hits [NL]':
             changeStream('http://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR01.mp3');
